@@ -16,8 +16,8 @@ import { MathUtils } from 'three';
 import * as random from 'maath/random';
 import { GestureRecognizer, FilesetResolver, DrawingUtils } from "@mediapipe/tasks-vision";
 
-// --- 动态生成照片列表 (top.jpg + 1.jpg 到 31.jpg) ---
-const TOTAL_NUMBERED_PHOTOS = 31;
+// --- 动态生成照片列表 (top.jpg + 1.jpg 到 20.jpg) ---
+const TOTAL_NUMBERED_PHOTOS = 20;
 // 使用 BASE_URL 确保部署到子路径时资源路径正确
 const BASE = import.meta.env.BASE_URL;
 const bodyPhotoPaths = [
